@@ -1,3 +1,3 @@
 Um exemplo de página de captura;
 
-(fictitious information)
+(informações fictícias)
