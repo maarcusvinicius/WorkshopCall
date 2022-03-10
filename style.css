@@ -8,11 +8,6 @@ body{
     background-color: black;
 }
 
-/*.container{
-    max-width: 1000px;
-    margin: auto;
-}*/
-
 header{
     background-color: #be8926;
     text-align: center;
@@ -26,7 +21,7 @@ header{
 
 section{
     padding: 10px;
-    background-image: url(../WorkshopCall/assents/people2.png);
+    background-image: url(./assents/fundo.png);
     background-size: cover;
     overflow: hidden;
     backdrop-filter: -50;
@@ -95,4 +90,19 @@ footer{
 
 .description h3{
     font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        zoom:70%;
+    }
+
+    .description{
+        max-width: 45%;
+    }
+
+    footer{
+        padding: 95px;
+    }
+    
 }
